@@ -1,0 +1,62 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center ;
+    margin: 0;
+    padding: 0;
+    background-color:  blueviolet;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        border: 2px solid  blueviolet;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: large;
+        }
+      
+       li a:hover {
+        background-color:purple;
+      }
+
+      main {
+       display: flex;
+       height: 550px;
+       }
+
+      .mains {
+        border: 2px solid blueviolet;
+        width:1000px;
+        text-align: center;
+       }
+
+    .aside{
+      width: 500px;
+     border: 2px solid  blueviolet;
+     text-align: center;
+    }
+    
+
+      footer {
+        text-align: center;
+        background-color: blueviolet;
+      }
+
